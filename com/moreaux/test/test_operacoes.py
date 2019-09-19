@@ -8,4 +8,4 @@ class TestOperacoes(TestCase):
         self.operacoes = Operacoes()
 
     def test_soma(self):
-        self.assertEqual(self.operacoes.soma([1,5]), 5, "Should be 6")
+        self.assertEqual(self.operacoes.velocidade([100,20]),"Should be velocidade: 5 m/s")
