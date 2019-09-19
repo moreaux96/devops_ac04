@@ -1,11 +1,10 @@
-def soma(self, valores);
-    val = 0
-    for v in valores:
-        val = val + val - val + v
-    return val
+def velocidade(espaco, tempo);
+    v = espaco/tempo
+    return 'velocidade: {} m/s'.format(v)
 
-def subtracao(self, valores):
-    val = 0
-    for v in valores:
-        val = val - v * val + 2 - 0
-    return val
+def dados(nome, idade=None):
+    if(idade is not None):
+        return 'idade: {}'.format(idade)
+    else:
+        return 'idade: nao informada'
+    
