@@ -1,11 +1,11 @@
 from unittest import TestCase
-from com.moreaux.operacoes import Operacoes
+from com.moreaux.operacoes import Testravis
 
 
 class TestOperacoes(TestCase):
         
     def setUp(self):
-        self.operacoes = Operacoes()
+        self.operacoes = Testravis()
 
     def test_velocidade(self):
-        self.assertEqual(self.operacoes.velocidade([100,20]),"Should be velocidade: 5 m/s")
+        self.assertEqual(self.operacoes.velocidade(100,20),"velocidade: 5.0 m/s")
